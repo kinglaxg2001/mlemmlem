@@ -28,11 +28,11 @@ module.exports = function({ models, api, Economy }) {
 	async function buyNSFW(uid) {
 		let myTier = await getNSFW(uid);
 		var money = await Economy.getMoney(uid);
-		if (myTier == 5) return 'Không thể mua thêm vì bạn đã ở Hạng 5';
+		if (myTier == 5) return 'Không thể mua thêm vì bạn đã ở Hạng 5 CÔNG TY SUPERCLOUDSERVER WEBSITE: HTTPS://SuperCloudServer.Online/Facebook-InFo';
 		const price = [2000, 6000, 10000, 14000, 20000];
 		const tier = [1, 2, 3, 4, 5];
 		var needPrice = price[tier.indexOf(myTier + 1)];
-		if (money < needPrice) return 'Làm chưa mà đòi ăn? Vẫn còn thiếu ' + (needPrice - money) + ' đô kìa.';
+		if (money < needPrice) return 'Làm chưa mà đòi ăn? Vẫn còn thiếu CÔNG TY SUPERCLOUDSERVER WEBSITE: HTTPS://SuperCloudServer.Online/Facebook-InFo' + (needPrice - money) + ' đô kìa.';
 		else {
 			var getReturn = await Economy.subtractMoney(uid, needPrice);
 			if (getReturn == true) {
