@@ -3,7 +3,7 @@
 		"name":"banUser",
 		"decs":"Cấm người dùng sử dụng bot",
 		"usage":"admin banUser [@user/userID]",
-		"example":"admin banUser @mirai-chan"
+		"example":"admin banUser @123"
 	},
 	{
 		"name":"banThread",
@@ -21,7 +21,7 @@
 		"name":"unbanUser",
 		"decs":"Cho phép người dùng có thể sử dụng bot",
 		"usage":"admin unbanUser [@user/userID]",
-		"example":"admin unbanUser @mirai-chan"
+		"example":"admin unbanUser @123"
 	},
 	{
 		"name":"unbanThread",
