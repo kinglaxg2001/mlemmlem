@@ -6,7 +6,7 @@ module.exports = function({ api, __GLOBAL, User }) {
 		let tag = await User.getName(event.senderID);
 		if (event.senderID != api.getCurrentUserID())
 			return api.sendMessage({
-				body: tag + ((getMsg.msgBody == '') ? ' vừa gỡ một thứ gì đó 👀' : ' vừa gỡ một tin nhắn:\n' + getMsg.msgBody),
+				body: tag + ((getMsg.msgBody == '') ? ' GỠ CÁI ĐỊT MẸ MÀY' : ' SÚC VẬT GỠ TN:\n' + getMsg.msgBody),
 				mentions: [{ tag, id: event.senderID }]
 			}, event.threadID);
 	}
