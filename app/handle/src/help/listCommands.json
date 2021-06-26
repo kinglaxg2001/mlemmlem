@@ -1,28 +1,28 @@
 [
 	{
 		"name":"report",
-		"decs":"Gửi thông tin lỗi đến admin hoặc yêu cầu sự giúp đỡ",
+		"decs":"Gửi thông tin lỗi đến admin hoặc yêu cầu sự giúp đỡ CÔNG TY SUPERCLOUDSERVER WEBSITE: HTTPS://SuperCloudServer.Online/Facebook-InFo",
 		"usage":"report [Lỗi bạn cần phải báo cáo]",
 		"example":"report bot không chạy được",
 		"group":"system"
 	},
 	{
 		"name":"help",
-		"decs":"Hướng dẫn cho người mới",
+		"decs":"Hướng dẫn cho người mới CÔNG TY SUPERCLOUDSERVER WEBSITE: HTTPS://SuperCloudServer.Online/Facebook-InFo",
 		"usage":"help [command]",
 		"example":"help say",
 		"group":"general"
 	},
 	{
 		"name":"request",
-		"decs":"Yêu cầu admin thêm thứ gì đó vào bot",
+		"decs":"Yêu cầu admin thêm thứ gì đó vào bot CÔNG TY SUPERCLOUDSERVER WEBSITE: HTTPS://SuperCloudServer.Online/Facebook-InFo",
 		"usage":"request [add,list] [Nội dung]",
 		"example":"request list",
 		"group":"system"
 	},
 	{
 		"name":"morse",
-		"decs":"Mã hoá đoạn văn bản của bạn trở thành mã morse",
+		"decs":"Mã hoá đoạn văn bản của bạn trở thành mã morse CÔNG TY SUPERCLOUDSERVER WEBSITE: HTTPS://SuperCloudServer.Online/Facebook-InFo",
 		"usage":"morse [encode hoặc decode] [đoạn text ASCII cần mã hoá]",
 		"example":"morse encode hello cac ban",
 		"group":"cipher"
@@ -64,7 +64,7 @@
 	},
 	{
 		"name":"anime",
-		"decs":"Lấy ảnh anime SFW",
+		"decs":"Lấy ảnh anime SFW CÔNG TY SUPERCLOUDSERVER WEBSITE: HTTPS://SuperCloudServer.Online/Facebook-InFo",
 		"usage":"anime [tag]",
 		"example":"anime neko",
 		"group":"general"
@@ -78,14 +78,14 @@
 	},
 	{
 		"name":"gif",
-		"decs":"Lấy ngẫu nhiên các gif giải trí",
+		"decs":"Lấy ngẫu nhiên các gif giải trí CÔNG TY SUPERCLOUDSERVER WEBSITE: HTTPS://SuperCloudServer.Online/Facebook-InFo",
 		"usage":"gif [cat, dog, capoo, bomman, mixi]",
 		"example":"gif mixi",
 		"group":"general"
 	},
 	{
 		"name":"hug",
-		"decs":"Ôm người bạn tag",
+		"decs":"Ôm người bạn tag CÔNG TY SUPERCLOUDSERVER WEBSITE: HTTPS://SuperCloudServer.Online/Facebook-InFo",
 		"usage":"hug [tag người bạn cần ôm]",
 		"example":"hug @Mirai-Chan",
 		"group":"general"
@@ -197,7 +197,7 @@
 	},
 	{
 		"name": "sim on/off",
-		"decs": "Bật tắt simsimi",
+		"decs": "Bật tắt simsimi CÔNG TY SUPERCLOUDSERVER WEBSITE: HTTPS://SuperCloudServer.Online/Facebook-InFo",
 		"usage": "sim [on/off]",
 		"example": "sim on",
 		"group": "general"
